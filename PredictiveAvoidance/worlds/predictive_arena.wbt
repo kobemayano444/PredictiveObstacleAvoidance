@@ -1,0 +1,49 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/appearances/protos/Parquetry.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/adept/pioneer3/protos/Pioneer3dx.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/devices/microsoft/protos/Kinect.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/WoodenBox.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.06583665324260651 -0.9467871047314126 -0.3150550958231311 5.848680829158713
+  position -9.988372485589387 -1.7041838832056535 4.7562208471720195
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 10 10
+  floorAppearance Parquetry {
+  }
+}
+WoodenBox {
+  translation 0.72 -0.48 0.34
+}
+Pioneer3dx {
+  hidden translation_1 -0.1917988831457514 3.950538795982213e-09 3.2244084278959515e-05
+  hidden rotation_1 0.5773504838904051 -0.577350055151056 -0.5773502685273368 2.094394358482557
+  hidden translation_2 0 -0.0521014 0.012843
+  hidden rotation_2 1 0 0 4.016481836284416
+  hidden translation_4 2.8656956801650718e-05 0.16499999802316176 2.290411035469924e-05
+  hidden rotation_4 0.48773854837801195 -0.4877386208297299 0.7240318682055527 4.394939312385324
+  hidden translation_9 2.8659936919377294e-05 -0.16500000197683815 2.290011758051191e-05
+  hidden rotation_9 0.4877385429344355 -0.4877386153861552 0.7240318755395995 4.394939322008654
+  hidden translation_29 0 0 0.05
+  translation -0.4395660166242383 8.203895118942396e-07 0.09459587862142083
+  rotation 2.697609448110021e-07 -0.9999999999458233 -1.0405823302275294e-05 0.033754198229299676
+  controller "reactive_robot"
+  extensionSlot [
+    Kinect {
+      translation 0 0 0.15
+      width 150
+      height 100
+    }
+  ]
+}
