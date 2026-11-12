@@ -1,0 +1,70 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/appearances/protos/Parquetry.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/adept/pioneer3/protos/Pioneer3dx.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/devices/microsoft/protos/Kinect.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/WoodenBox.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.06583665324260651 -0.9467871047314126 -0.3150550958231311 5.848680829158713
+  position -9.988372485589387 -1.7041838832056535 4.7562208471720195
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 10 10
+  floorAppearance Parquetry {
+  }
+}
+WoodenBox {
+  translation 0.72 -0.48 0.34
+}
+Pioneer3dx {
+  hidden position_0_0 -0.34467072268088794
+  hidden position_0_1 12.151977283026351
+  hidden position_0_2 19.312547730109266
+  hidden linearVelocity_0 -0.07928662976289602 0.048287232307233835 -4.545136912358563e-05
+  hidden angularVelocity_0 -0.028401739701202744 -0.03243071512501898 -0.6597283383012844
+  hidden translation_1 -0.19179894749673118 -3.7365209557299464e-07 3.224408427895951e-05
+  hidden rotation_1 0.44537981915746533 -0.6331020875221299 -0.6331023325358899 2.3035819841696243
+  hidden position_1_0 -42.59433872558098
+  hidden linearVelocity_1 -0.09938827425235773 -0.025463512904387142 0.00516508751067447
+  hidden angularVelocity_1 0.12462613201955008 -0.0931885873801539 4.228788885414428
+  hidden rotation_2 -1 0 0 4.895226882503463
+  hidden linearVelocity_2 -0.07138578430103767 0.005193549755250437 0.004906434380969953
+  hidden angularVelocity_2 -1.2356302894898925 -1.0158946643331381 4.181602473356658
+  hidden translation_4 1.7009464376545263e-05 0.16499999802316176 3.2503808482929405e-05
+  hidden rotation_4 0.3520533421507588 -0.3520534149514616 0.8672466992162581 4.570436370101945
+  hidden linearVelocity_4 -0.16440111345121497 0.12281520163749093 -6.935666826211247e-07
+  hidden angularVelocity_4 -1.2695240769895442 -3.3050177255106385 -0.665480052824968
+  hidden translation_9 3.587043612355634e-05 -0.16500000197683815 7.68889990374575e-06
+  hidden rotation_9 -0.5917554853764057 0.5917555535839192 -0.5474036995942974 2.1398972470382596
+  hidden linearVelocity_9 0.03846458732292812 0.041931560327539544 -0.004796423251300794
+  hidden angularVelocity_9 0.17818707484323792 0.4241426414920326 -0.6514301275374355
+  hidden position_30_0 6.680176889777036e-09
+  hidden rotation_31 0.5773836009375273 -0.5772836037778953 -0.5773835970805027 2.0944000038563564
+  hidden linearVelocity_31 -0.07100531136221185 0.0840645186208481 -0.0021608654964478157
+  hidden angularVelocity_31 -0.0284017066610436 -0.03243064687870869 -0.6597279058522678
+  translation -1.0664668702968263 1.0322820677860252 0.09453902543373263
+  rotation 0.016371288288587277 -0.0031224055536547123 0.9998611061059083 2.7644440998557545
+  controller "reactive_robot"
+  extensionSlot [
+    InertialUnit {
+      name "imu"
+    }
+    GPS {
+    }
+    Kinect {
+      translation 0 0 0.15
+      width 150
+      height 100
+    }
+  ]
+}
