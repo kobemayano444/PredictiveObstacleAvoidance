@@ -1,7 +1,3 @@
-"""predictive_robot controller."""
-
-# You may need to import some classes of the controller module. Ex:
-#  from controller import Robot, Motor, DistanceSensor
 from controller import Robot
 import math
 
